@@ -1,0 +1,22 @@
+{
+  "name": "runner-logs-investigation",
+  "version": "1.0.0",
+  "description": "A Node.js API used as a CI investigation exercise for the GitHub Actions runner logs lesson.",
+  "main": "src/app.js",
+  "scripts": {
+    "start": "node src/app.js",
+    "test": "jest"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "react": "^18.0.0",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0",
+    "supertest": "^6.3.0"
+  }
+}

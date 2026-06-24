@@ -6,7 +6,8 @@ on:
 jobs:
   create-release:
     runs-on: ubuntu-latest
-    # Intentional failure: Missing 'permissions: contents: write' block
+    permissions:
+      content: write
 
     steps:
       - name: Checkout code
